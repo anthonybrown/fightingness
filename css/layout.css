@@ -139,7 +139,7 @@ img.header-logo {
   position: relative;
   z-index: 2 !important;
   float: right;
-  width: 76% !important;
+  width: 100% ;
   background-color: #f9f9f9;
   border-left:9px solid transparent;
   border-right:9px solid transparent;
@@ -163,26 +163,15 @@ img.header-logo {
 
   .main-content p {
     width: auto;
-    max-width: 679px;
+    max-width: 100%;
   }
-    .borderwrap {
-      height: auto;
-      border-right: 1px solid #222;
-      margin-right:29%;
-    }
+
 
 /* ===== Side Filler Styles ========================================================
    Author: Tony Brown
    ========================================================================== */
 
-  .side {
-    width:212px;
-    height:376px;
-    max-width: 100%;
-    background-image:url(../img/side.jpg);
-    float: right;
-    margin: -530px 3% 0 0;
-  }
+
 
 /* ===== Main-Nav Styles ========================================================
    Author: Tony Brown
@@ -207,6 +196,103 @@ img.header-logo {
     }
 
 
+
+/* ===== Responsive Styles ========================================================
+   Author:
+   ========================================================================== */
+@media only screen and (min-width:480px){
+
+    .side img {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width:748px){
+
+    .main-content {
+      position: relative;
+      z-index: 2 !important;
+      float: right;
+      width: 76% !important;
+      background-color: #f9f9f9;
+      border-left:9px solid transparent;
+      border-right:9px solid transparent;
+      min-height: 577px;
+      border-image:url(../img/border-img.png) 30 30 stretch;
+      background-position: left;
+      background-repeat: repeat;
+      padding:1.5em;
+    }
+
+    .borderwrap {
+      height: auto;
+      border-right: 1px solid #222;
+      margin-right:29%;
+    }
+
+    .side {
+
+        width:185px;
+        height:376px;
+        max-width: 90%;
+        position: absolute;
+        top: 125px;
+        right: -30px;
+      }
+        .side img {
+          display: block;
+          width: 100%;
+          max-width:80%;
+          max-height: 80%;
+        }
+
+}
+
+
+
+@media only screen and (min-width:960px){
+
+  .main-content {
+      position: relative;
+      z-index: 2 !important;
+      float: right;
+      width: 76% !important;
+      background-color: #f9f9f9;
+      border-left:9px solid transparent;
+      border-right:9px solid transparent;
+      min-height: 577px;
+      border-image:url(../img/border-img.png) 30 30 stretch;
+      background-position: left;
+      background-repeat: repeat;
+      padding:1.5em;
+    }
+
+
+
+
+    .side {
+
+        width:235px;
+        height:376px;
+        max-width: 90%;
+        position: absolute;
+        
+
+        top: 120px;
+        
+
+        right: 0;
+      }
+        .side img {
+          display: block;
+          width: 100%;
+          max-width:80%;
+          max-height: 80%;
+        }
+
+}
 
 
 
