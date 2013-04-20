@@ -215,7 +215,8 @@ img.header-logo {
       position: relative;
       z-index: 2 !important;
       float: right;
-      width: 76% !important;
+      width: 70%;
+      margin:0;
       background-color: #f9f9f9;
       border-left:9px solid transparent;
       border-right:9px solid transparent;
@@ -228,12 +229,13 @@ img.header-logo {
 
     .borderwrap {
       height: auto;
+      height: auto;
       border-right: 1px solid #222;
       margin-right:29%;
+      padding-right: 1em;
     }
 
     .side {
-
         width:185px;
         height:376px;
         max-width: 90%;
