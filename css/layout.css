@@ -1,0 +1,31 @@
+body {
+  position: relative;
+  background:url(../img/body-bg.png);
+  font-family: Helvetica, Arial, sans-serif;
+  color: #191919;
+}
+#header {
+  z-index: 999 !important;
+  height: 140px;
+  margin-top:50px;
+  background:url(../img/header-bg.png) repeat-x #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  box-shadow: 9px 19px 30px -19px #000;
+}
+
+.main {
+  z-index: 0 !important;
+}
+
+.main-content {
+  z-index: 1;
+  height: 500px;
+  background-color: #225967;
+}
+
+.main-sidebar {
+  z-index: 1;
+  height: 500px;
+  background-color: #f798ea;
+}
