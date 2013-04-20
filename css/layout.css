@@ -127,6 +127,9 @@ body {
   border-right: 1px solid #000;
   box-shadow: 9px 19px 30px -19px #000;
 }
+img.header-logo {
+  margin: 0 0 0 2.2em;
+}
 
 /* ===== Main-Content Styles ========================================================
    Author: Tony Brown
@@ -140,7 +143,7 @@ body {
   background-color: #f9f9f9;
   border-left:9px solid transparent;
   border-right:9px solid transparent;
-  height: auto;
+  min-height: 577px;
   border-image:url(../img/border-img.png) 30 30 stretch;
   background-position: left;
   background-repeat: repeat;
@@ -180,5 +183,32 @@ body {
     float: right;
     margin: -530px 3% 0 0;
   }
+
+/* ===== Main-Nav Styles ========================================================
+   Author: Tony Brown
+   ========================================================================== */
+
+.main-nav {
+  margin-top:50px;
+  text-align: center;
+}
+  .main-nav ul {
+    width: auto;
+    height: auto;
+  }
+    .main-nav li {
+      list-style: none;
+      padding: .5em 0
+    }
+      .main-nav a {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fafafa;
+    }
+
+
+
+
+
 
 
