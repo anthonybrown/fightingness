@@ -14,18 +14,46 @@ body {
   box-shadow: 9px 19px 30px -19px #000;
 }
 
-.main {
-  z-index: 0 !important;
-}
-
 .main-content {
-  z-index: 1;
-  height: 500px;
-  background-color: #225967;
+  position: relative;
+  z-index: 2 !important;
+  float: right;
+  width: 76% !important;
+  background-color: #f9f9f9;
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  height: auto;
+  border-image:url(../img/border-img.png) 30 30 stretch;
+  background-position: left;
+  background-repeat: repeat;
+   padding:1em;
 }
+  .main-content h1 {
+    font-size: 24px;
+    line-height: 1.4;
+    color: #ed1c24;
+  }
 
-.main-sidebar {
-  z-index: 1;
-  height: 500px;
-  background-color: #f798ea;
-}
+  .main-content h2 {
+    font-size: 16px;
+    color: #362f2d;
+    font-weight: bold;
+  }
+
+  .main-content p {
+    width: auto;
+    max-width: 559px;
+  }
+    .borderwrap {
+      height: auto;
+      border-right: 1px solid #222;
+      margin-right:29%;
+    }
+  div.side {
+    position: absolute;
+    top:0;
+    right: 0;
+    background:url(../img/side.jpg);
+  }
+
+
